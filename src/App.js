@@ -11,9 +11,10 @@ import Container from "./components/CheckModulo/Container"
 function App() {
 
   return (
-    <div className="App">
+    <div className="App ">
      
        <Header />
+
         <GlobalStyle />
         <CheckModulo />
         <Orcamento />

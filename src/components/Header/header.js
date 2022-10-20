@@ -8,6 +8,7 @@ return(
     <span className={styles.texto}> PROPOSTA COMERCIAL</span>
     <div className={styles.logotipo}>
         <img src={logo} alt="logo" />
+        
     </div>
     </section>
     

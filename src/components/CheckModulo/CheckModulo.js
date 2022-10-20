@@ -13,7 +13,7 @@ function CheckModulo() {
    
     <div className={styles.box}>
         <p>MECAUTO</p>
-        <p>Acessos simultâneos: 5</p>
+        <p>Acessos simultâneos: {}</p>
         <h3>Tabela </h3>
     </div>
 
