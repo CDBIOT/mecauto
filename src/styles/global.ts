@@ -10,9 +10,11 @@ const global = createGlobalStyle`
 }
 
 body{
-
-    background: #1212
+    background: #1212;
     
+}
+body p{
+    font-size: 0.8em;
 }
 
 `
