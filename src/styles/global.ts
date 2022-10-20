@@ -10,7 +10,13 @@ const global = createGlobalStyle`
 }
 
 body{
-    background: #1212;
+    align-itens:center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    width: 100%
     
 }
 body p{

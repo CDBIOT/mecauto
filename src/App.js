@@ -1,25 +1,24 @@
-import logo from './assets/logo.svg';
+
 import './App.css';
 import GlobalStyle from './styles/global.ts';
 import CheckModulo from './components/CheckModulo/CheckModulo';
 import { Button } from './components/CheckModulo/styles';
 import Orcamento from './components/Orcamento/orcamento';
-import Header from './components/Header/header';
+import Header from './components/Header/Header';
 import Simulador from './components/Simulador/simulador';
+import Container from "./components/CheckModulo/Container"
 
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" />
-
+     
+       <Header />
         <GlobalStyle />
-        <Header />
         <CheckModulo />
         <Orcamento />
         <Simulador />
-      </header>
+      
     </div>
   );
 }
