@@ -34,6 +34,7 @@ function Orcamento() {
             <td><input type='checkbox'/>NFC-e / SAT CF-e</td>
             <td><input type='checkbox'/>Fotos Online</td>
             <td><input type='checkbox'/>Estoque Online</td></tr>
+            
             </table>
             
      </div>
