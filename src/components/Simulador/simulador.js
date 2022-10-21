@@ -1,6 +1,6 @@
 import { CiCircleCheck } from 'react-icons/ci'
 import { FcCollapse, FcExpand} from 'react-icons/fc'
-import { Button } from './styles'
+import { Button } from '../../styles/styles'
 
 function simulador() {
     return(
@@ -27,16 +27,7 @@ function simulador() {
     <div className="check" >
         <CiCircleCheck/>
             <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
-            <CiCircleCheck/>
+           
 
       </div>
       </div>
